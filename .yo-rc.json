@@ -1,0 +1,47 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "accountancy",
+    "packageName": "com.efluid.accountancy",
+    "packageFolder": "com/efluid/accountancy",
+    "serverPort": 8082,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": [
+      "fr"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.4.1",
+    "jwtSecretKey": "OTFjMDFlNjZkMjAwY2M0NGIzOGUyMjQyMzEwOWNmODZhYTg2YTM2YzM2M2U3MDVkOWNkYzQ2MWZlMGFlZTAwOWU3OWFiMDZhNTIwYWRmOWFlZTExMWI1ZTZkOTM1MGNlODE2ZWY2ZmM0MTgwZTllOTk4Y2ZlYjgwYzhhNjRiNTE=",
+    "embeddableLaunchScript": false,
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "boutss",
+  "repository-name": "accountancy"
+}
